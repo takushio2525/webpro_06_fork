@@ -19,6 +19,9 @@ app.get("/icon", (req, res) => {
   res.render('icon', { filename:"./public/Apple_logo_black.svg", alt:"Apple Logo"});
 });
 
+
+
+
 app.get("/omikuji1", (req, res) => {
   const num = Math.floor( Math.random() * 6 + 1 );
   let luck = '';
